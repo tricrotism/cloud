@@ -452,6 +452,7 @@ public final class CommandTree<C> {
                         final CommandComponent<C> nodeComponent = node.component();
                         if (nodeComponent != null && node.command() != null) {
                             child.command(node.command());
+                            break;
                         }
                     }
                 }
